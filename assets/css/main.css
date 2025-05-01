@@ -40,8 +40,12 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: #c79944;
   --surface-color: #ffffff;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .dark-background {
@@ -64,10 +68,6 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
-}
-
-.text-shadow {
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 a {
@@ -891,6 +891,83 @@ section,
   align-items: center;
   flex-direction: column;
   z-index: 3;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(199, 153, 68, 0.2));
+  z-index: 1;
+}
+
+.carousel-container {
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 1s ease-out;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
+.btn-gold {
+  border: 2px solid #c79944;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background-color: #c79944;
+  color: white;
+}
+
+.decor-line {
+  width: 60px;
+  height: 4px;
+  background-color: #c79944;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-text {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.carousel-container h1,
+.carousel-container p,
+.carousel-container a {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
 }
 
 .hero h2 {
