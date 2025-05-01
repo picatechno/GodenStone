@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>الأحـجار الذهبية</title>
-<meta name="description" content="مركز الأحجار الذهبية يقدم خدمات المساج، الحمام المغربي، العناية بالبشرة والاسترخاء في الرياض.">
-<meta name="keywords" content="مساج, الحمام المغربي, استرخاء, العناية بالبشرة, الرياض, الأحجار الذهبية">
+  <meta name="description"
+    content="مركز الأحجار الذهبية يقدم خدمات المساج، الحمام المغربي، العناية بالبشرة والاسترخاء في الرياض.">
+  <meta name="keywords" content="مساج, الحمام المغربي, استرخاء, العناية بالبشرة, الرياض, الأحجار الذهبية">
 
   <!-- Favicons -->
   <link href="assets/img/fc.png" rel="icon">
@@ -41,18 +42,18 @@
 
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- Uncomment the line below if you also wish to use an image logo  -->
         <img src="assets/img/logo-w.png" style="width: 100px;" alt="GOLDEN STONE">
-     
+
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" style="font-family: Verdana, Geneva, Tahoma, sans-serif" class="active"> الرئيسية</a></li>
-          <li><a href="#about" style="font-family: Verdana, Geneva, Tahoma, sans-serif"> نبـذه عنا </a></li>
-          <!-- <li><a href="#services">خدماتنا</a></li> -->
-          <li><a href="#portfolio" style="font-family: Verdana, Geneva, Tahoma, sans-serif">خــدمـاتـنا</a></li>
-          <!-- <li><a href="#contact">Contact</a></li> -->
+          <li><a href="#about" style="font-family: Verdana, Geneva, Tahoma, sans-serif"> نبذه عنا </a></li>
+
+          <li><a href="#portfolio" style="font-family: Verdana, Geneva, Tahoma, sans-serif">خــدماتنا</a></li>
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -62,53 +63,106 @@
 
   <main class="main">
 
-<section id="hero" class="hero section">
+    <section id="hero" class="hero section position-relative">
 
-  <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-    <!-- العنصر الأول -->
-    <div class="carousel-item active">
-      <img src="assets/img/hero-carousel/hero-carousel-5.jpg" class="d-block w-100" alt="">
-      <div class="carousel-container text-center text-white">
-        <h1 class="display-4 fw-bold text-shadow">حمـام فاخر</h1>
-        <p class="lead mt-3 text-shadow">بمواصفات تلبي احتياجاتكم</p>
-        <a href="#contact" class="btn btn-light mt-4 px-4 py-2" style="color: #c79944;">احجز الآن</a>
+        <!-- Overlay الغامق -->
+        <div class="overlay"></div>
+
+        <!-- العنصر الأول -->
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-5.jpg" class="d-block w-100" alt="">
+          <div class="carousel-container text-center text-white">
+            <h1 class="display-4 fw-bold text-shadow animate">حمـام فاخر</h1>
+            <div class="decor-line my-3"></div>
+            <p class="lead mt-3 text-shadow animate">بمواصفات تلبي احتياجاتكم</p>
+            <a href="#contact" class="btn btn-gold mt-4 px-4 py-2 animate">احجز الآن</a>
+          </div>
+        </div>
+
+        <!-- العنصر الثاني -->
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="">
+          <div class="carousel-container text-center text-white">
+            <h1 class="display-5 fw-bold text-shadow animate">الحمام المغربي</h1>
+            <div class="decor-line my-3"></div>
+            <p class="lead mt-3 text-shadow animate">بلسم مميز لنقاء جسمك</p>
+            <a href="#contact" class="btn btn-gold mt-4 px-4 py-2 animate">احجز الآن</a>
+          </div>
+        </div>
+
+        <!-- العنصر الثالث -->
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-4.jpg" class="d-block w-100" alt="">
+          <div class="carousel-container text-center text-white">
+            <h1 class="display-5 fw-bold text-shadow animate">خدمات المساج</h1>
+            <div class="decor-line my-3"></div>
+            <p class="lead mt-3 text-shadow animate">مساج هوت ستون للاسترخاء التام</p>
+            <a href="#contact" class="btn btn-gold mt-4 px-4 py-2 animate">احجز الآن</a>
+          </div>
+        </div>
+
+        <!-- أزرار التنقل -->
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
       </div>
-    </div>
+    </section>
 
-    <!-- العنصر الثاني -->
-    <div class="carousel-item">
-      <img src="assets/img/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="">
-      <div class="carousel-container text-center text-white">
-        <h1 class="display-5 fw-bold text-shadow">الحمام المغربي</h1>
-        <p class="lead mt-3 text-shadow">بلسم مميز لنقاء جسمك</p>
-        <a href="#contact" class="btn btn-light mt-4 px-4 py-2" style="color: #c79944;">احجز الآن</a>
+
+
+    <!--   
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
+          <div class="carousel-container">
+            <h1>حمام </h1>
+            <p style="font-size: 140%;"> بمواصفات تلبي احتياجاتكم </p>
+            <a href="#contact" class="btn-get-started" style="background-color: white; color: #c79944;">احـجز الان </a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <div class="carousel-container">
+            <h2>حمـام </h2>
+            <p style="font-size: 150%; font-family: 'Courier New', Courier, monospace;"> حمام مغربي بلسم</p>
+            <a href="#about" class="btn-get-started" style="background-color: white; color: #c79944;">احـجز الان</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
+          <div class="carousel-container">
+            <h1> خدمات المســـاج </h1>
+            <p style="font-size: 140%;"> مساج هــوت ستون </p>
+            <a href="#about" class="btn-get-started" style="background-color: white; color: #c79944;">احجز الان</a>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
       </div>
-    </div>
 
-    <!-- العنصر الثالث -->
-    <div class="carousel-item">
-      <img src="assets/img/hero-carousel/hero-carousel-4.jpg" class="d-block w-100" alt="">
-      <div class="carousel-container text-center text-white">
-        <h1 class="display-5 fw-bold text-shadow">خدمات المساج</h1>
-        <p class="lead mt-3 text-shadow">مساج هوت ستون للاسترخاء التام</p>
-        <a href="#contact" class="btn btn-light mt-4 px-4 py-2" style="color: #c79944;">احجز الآن</a>
-      </div>
-    </div>
-
-    <!-- أزرار التنقل -->
-    <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-    </a>
-    <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-    </a>
-
-    <ol class="carousel-indicators"></ol>
-
-  </div>
-
-</section>
+    </section> -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -123,17 +177,36 @@
               <h2 class="mb-4" style="color: #dab268;">شاهد الفيديو التعريفي</h2>
               <div class="video-wrapper position-relative" style="display: inline-block;">
 
-                <!-- Auto-playing Video -->
-                <!-- <video autoplay muted loop playsinline 
-                   style="width: 100%; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
-              <source src="videos/intro.mp4" type="video/mp4">
-              المتصفح لا يدعم تشغيل الفيديو.
-            </video> -->
-                <video autoplay muted loop playsinline style="width: 100%; border-radius: 12px;" >
-                      <source src="assets/videos/Golden Stone.mp4" type="video/mp4" id="AB">
+                <!-- الفيديو الخلفي -->
+                <video autoplay muted loop playsinline style="width: 100%; border-radius: 12px;" id="AB">
+                  <source src="assets/videos/Golden Stone.mp4" type="video/mp4">
                   المتصفح لا يدعم تشغيل الفيديو.
                 </video>
-                <!-- Play Button Overlay (Scrolls to about content) -->
+
+                <!-- زر Glightbox -->
+                <a href="assets/videos/Golden Stone.mp4" class="glightbox pulsating-play-btn"
+                  data-glightbox="title: فيديو تعريفي; description: ; type: video" style="position: absolute; top: 50%; left: 50%;
+                transform: translate(-50%, -50%);
+                width: 70px; height: 70px; background: rgba(218, 178, 104, 0.85);
+                border-radius: 50%; display: flex; justify-content: center; align-items: center;
+                text-decoration: none; color: white; font-size: 32px;">
+                  <i class="bi bi-play-fill"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="video-section text-center position-relative">
+              <h2 class="mb-4" style="color: #dab268;">شاهد الفيديو التعريفي</h2>
+              <div class="video-wrapper position-relative" style="display: inline-block;">
+
+                <video autoplay muted loop playsinline style="width: 100%; border-radius: 12px;"  id="AB">
+                  <source src="assets/videos/Golden Stone.mp4" type="video/mp4" >
+                  المتصفح لا يدعم تشغيل الفيديو.
+                </video>
+                
                 <a href="#AB" class="glightbox pulsating-play-btn" style="position: absolute; top: 50%; left: 50%;
                       transform: translate(-50%, -50%);
                       width: 70px; height: 70px; background: rgba(218, 178, 104, 0.85);
@@ -144,7 +217,7 @@
 
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- About Text Column -->
           <div class="col-lg-7 content ps-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -152,7 +225,7 @@
                    font-family: 'Tajawal', sans-serif; padding: 10px;">
               عـن الأحـجار الذهبية
             </h3>
-            <p class="text-center"  style="font-family: 'Tajawal', sans-serif; font-size: 16px; line-height: 2;">
+            <p class="text-center" style="font-family: 'Tajawal', sans-serif; font-size: 16px; line-height: 2;">
               نـرحب بـكم في مركز الأحجار الذهبـية، حيث نقدم تجربة استثنائية من الراحة والاسترخاء من خلال مجموعة متنوعة
               من الخدمات التي
               تجمع بين الفخامة والعناية بالجسم. نهتم بأدق التفاصيل لنمنحكم تجربة مميزة تشمل المساج العلاجي، التدليك
@@ -176,171 +249,210 @@
 
 
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+   <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+  <div class="container section-title" data-aos="fade-up">
+    <div class="btn"><span>اكتشف </span> <span class="description-title"> خدماتنا </span></div>
+  </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <!-- <h2>خدماتنا</h2> -->
-        <div class="btn btn- "><span>اكتشف </span> <span class="description-title"> خدماتنا </span></div>
-      </div><!-- End Section Title -->
+  <div class="container-fluid">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">الكل</li>
+        <li data-filter=".filter-app">الحمام المغربي</li>
+        <li data-filter=".filter-product">VIP ومساج خاص</li>
+        <li data-filter=".filter-branding">أنواع المساج</li>
+        <li data-filter=".filter-books">إضافات وتجميل</li>
+      </ul>
 
-      <div class="container-fluid">
+      <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">الكل</li>
-            <li data-filter=".filter-app">حمـام مغربي</li>
-            <li data-filter=".filter-product">VIP</li>
-            <li data-filter=".filter-branding">مسـاج</li>
-            <li data-filter=".filter-books">الأضافات</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/8.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/8.jpg" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> حمام مغربي</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/9.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/9.jpg" data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-
-                  <p> تنظيف بشره هيدرافيشل</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/4.jpg" data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> تنظيف بشرة </p>
-
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/12.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/12.jpg" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> تنظيف بشره هيدرافيشل</p>
-                </div>
-              </div>
+        <!-- عنصر 1 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/8.jpg" class="glightbox preview-link" data-gallery="portfolio-app"
+                 data-glightbox="title: حمام مغربي; description: تنظيف وتنعيم كامل للجسم باستخدام البخار والصابون المغربي.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">حمام مغربي</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
             </div>
-
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/10.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/10.jpg" data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مسج عميق </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/13.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/13.jpg" data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> بديكير </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/7.jpg" data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مساج اقدام</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/2.jpg" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مسـاج كاسات </p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/3.jpg" data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مسـاج وعلاج الابهر</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/5.jpg" data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مساج سويدي </p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/6.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/6.jpg" data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مسـاج تايلندي</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/1.jpg" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <p> مسـاك وجه</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
+          </div>
         </div>
 
-      </div>
+        <!-- عنصر 2 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/9.jpg" class="glightbox preview-link" data-gallery="portfolio-books"
+                 data-glightbox="title: تنظيف بشره هيدرافيشل; description: تنظيف عميق للبشرة باستخدام تقنية الهيدرافيشل لترطيب وتغذية البشرة.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">تنظيف بشره هيدرافيشل</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
 
-    </section><!-- /Portfolio Section -->
+        <!-- عنصر 3 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/4.jpg" class="glightbox preview-link" data-gallery="portfolio-branding"
+                 data-glightbox="title: تنظيف بشرة; description: جلسة عناية بالبشرة تشمل تقشير وترطيب وتغذية باستخدام منتجات مخصصة.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">تنظيف بشرة</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 4 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/13.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/13.jpg" class="glightbox preview-link" data-gallery="portfolio-books"
+                 data-glightbox="title:   مساج علاج الأبهر; description:  جلسة متخصصة لعلاج الأبهر وتخفيف الآلام الناتجة عنه;">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">  مسـاج علاج الأبهر </p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 5 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/10.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/10.jpg" class="glightbox preview-link" data-gallery="portfolio-branding"
+                 data-glightbox="title: مساج عميق; description: استرخاء عميق وتفكيك للعضلات المشدودة باستخدام زيوت علاجية.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج عميق</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 6 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/12.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/12.jpg" class="glightbox preview-link" data-gallery="portfolio-books"
+                 data-glightbox="title: بديكير; description: عناية احترافية بالأقدام، تقليم وترطيب وتنعيم.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">بديكير</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 7 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/7.jpg" class="glightbox preview-link" data-gallery="portfolio-branding"
+                 data-glightbox="title: مساج أقدام; description: تدليك الأقدام لتخفيف التعب وتنشيط الدورة الدموية.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج أقدام</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 8 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/2.jpg" class="glightbox preview-link" data-gallery="portfolio-books"
+                 data-glightbox="title: مساج كاسات; description: علاج بالأكواب لتحفيز الدورة الدموية وتخفيف الآلام.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج كاسات</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 9 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/3.jpg" class="glightbox preview-link" data-gallery="portfolio-branding"
+                 data-glightbox="title: مساج الأبهر; description: جلسة متخصصة لعلاج الأبهر وتخفيف الآلام الناتجة عنه.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج وعلاج الأبهر</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 10 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/5.jpg" class="glightbox preview-link" data-gallery="portfolio-product"
+                 data-glightbox="title: مساج سويدي; description: جلسة استرخاء شاملة باستخدام تقنيات المساج السويدي الكلاسيكي.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج سويدي</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 11 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/6.jpg" class="glightbox preview-link" data-gallery="portfolio-branding"
+                 data-glightbox="title: مساج تايلندي; description: تمديد عضلات الجسم وتنشيط الطاقة الداخلية بأسلوب تايلندي تقليدي.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج تايلندي</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- عنصر 12 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info text-center">
+              <a href="assets/img/portfolio/1.jpg" class="glightbox preview-link" data-gallery="portfolio-product"
+                 data-glightbox="title: مساج وجه; description: جلسة عناية وتجديد للبشرة من خلال تدليك مخصص للوجه.">
+                <i class="bi bi-zoom-in"></i>
+              </a>
+              <p class="mt-2 fw-bold">مساج وجه</p>
+              <a href="#contact" class="btn btn-sm btn-outline-warning mt-2">احجز الآن</a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- End Portfolio Container -->
+    </div>
+  </div>
+</section>
+
+
 
     <section id="contact" class="contact section">
 
@@ -382,7 +494,7 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
-<!--                   <h1>تواصل معنا</h1> -->
+                  <!-- <h1>تواصل معنا</h1> -->
 
                   <!-- Branch 1: فرع لبن -->
                   <div class="branch-button">
@@ -461,7 +573,7 @@
 
     <!-- حقوق النشر -->
     <div class="container copyright text-center mt-4 text-white">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">GOLDEN STONE</strong> <span>كل الحقوق محفوظة</span></p>
+      <p> © <span>Copyright</span> <strong class="px-1 sitename">GOLDEN STONE</strong> <span>كل الحقوق محفوظة</span></p>
       <div class="credits">
         تم التصميم عن طـريق : <a href="#" style="color: #dab268;">بيكا نكنولوجي</a>
       </div>
@@ -487,6 +599,72 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <script>
+    const videoElement = document.getElementById('AB');
+  
+    const lightbox = GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      autoplayVideos: true,
+      plyr: {
+        config: {
+          autoplay: true,
+        }
+      }
+    });
+  
+    lightbox.on('open', () => {
+      if (!videoElement.paused) {
+        videoElement.pause();
+      }
+    });
+  
+    lightbox.on('close', () => {
+      videoElement.play();
+    });
+  </script>
+  <!-- مشغل الصوت -->
+  <audio id="bg-music" loop>
+    <source src="assets/evening-glow-soft-piano-music-243818.mp3" type="audio/mp3">
+    متصفحك لا يدعم تشغيل الصوت.
+  </audio>
+
+  <!-- زر التحكم بالصوت -->
+  <button id="toggle-music" style="
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #c79944;
+  color: #c79944;
+  padding: 8px 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+">
+    🔇 تشغيل الموسيقى
+  </button>
+  <script>
+    const music = document.getElementById("bg-music");
+    const toggleBtn = document.getElementById("toggle-music");
+    let isPlaying = false;
+    music.volume = 0.2;
+    toggleBtn.addEventListener("click", () => {
+      if (!isPlaying) {
+        music.play();
+        toggleBtn.textContent = "🔊 إيقاف الموسيقى";
+        isPlaying = true;
+
+      } else {
+        music.pause();
+        toggleBtn.textContent = "🔇 تشغيل الموسيقى";
+        isPlaying = false;
+      }
+    });
+  </script>
 
 </body>
 
