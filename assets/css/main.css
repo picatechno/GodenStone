@@ -66,6 +66,10 @@ body {
   font-family: var(--default-font);
 }
 
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
